@@ -3,7 +3,6 @@ runs/
 YOLO-OD-main/
 __pycache__/
 .vscode/
-*.pt
 *.pyc
 *.pyo
 test_result.jpg
