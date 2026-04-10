@@ -1,0 +1,167 @@
+{
+  "default_priority": 0.35,
+  "danger_priority_threshold": 0.6,
+  "reference_height_px": 720,
+  "classes": {
+    "person": {
+      "name": "Человек",
+      "height_m": 1.68,
+      "width_m": 0.55,
+      "priority": 1.0,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "car": {
+      "name": "Машина",
+      "height_m": 1.5,
+      "width_m": 1.8,
+      "priority": 1.0,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "truck": {
+      "name": "Грузовик",
+      "height_m": 3.2,
+      "width_m": 2.5,
+      "priority": 1.0,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "bus": {
+      "name": "Автобус",
+      "height_m": 3.0,
+      "width_m": 2.55,
+      "priority": 1.0,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "motorcycle": {
+      "name": "Мотоцикл",
+      "height_m": 1.2,
+      "width_m": 0.8,
+      "priority": 0.95,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "bicycle": {
+      "name": "Велосипед",
+      "height_m": 1.1,
+      "width_m": 0.55,
+      "priority": 0.9,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "dog": {
+      "name": "Собака",
+      "height_m": 0.6,
+      "width_m": 0.35,
+      "priority": 0.85,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "cat": {
+      "name": "Кошка",
+      "height_m": 0.35,
+      "width_m": 0.25,
+      "priority": 0.6,
+      "danger": false,
+      "distance_scale": 1.0
+    },
+    "traffic light": {
+      "name": "Светофор",
+      "height_m": 2.5,
+      "width_m": 0.35,
+      "priority": 0.7,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "stop sign": {
+      "name": "Знак стоп",
+      "height_m": 2.0,
+      "width_m": 0.6,
+      "priority": 0.75,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "bench": {
+      "name": "Скамейка",
+      "height_m": 0.9,
+      "width_m": 1.5,
+      "priority": 0.8,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "chair": {
+      "name": "Стул",
+      "height_m": 0.9,
+      "width_m": 0.45,
+      "priority": 0.8,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "dining table": {
+      "name": "Стол",
+      "height_m": 0.75,
+      "width_m": 1.2,
+      "priority": 0.8,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "fire hydrant": {
+      "name": "Гидрант",
+      "height_m": 0.75,
+      "width_m": 0.35,
+      "priority": 0.8,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "parking meter": {
+      "name": "Стойка",
+      "height_m": 1.4,
+      "width_m": 0.25,
+      "priority": 0.7,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "suitcase": {
+      "name": "Чемодан",
+      "height_m": 0.65,
+      "width_m": 0.45,
+      "priority": 0.7,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "backpack": {
+      "name": "Рюкзак",
+      "height_m": 0.55,
+      "width_m": 0.35,
+      "priority": 0.65,
+      "danger": false,
+      "distance_scale": 1.0
+    },
+    "pothole": {
+      "name": "Яма",
+      "height_m": 0.2,
+      "width_m": 0.5,
+      "priority": 0.95,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "obstacle": {
+      "name": "Препятствие",
+      "height_m": 0.55,
+      "width_m": 0.55,
+      "priority": 0.9,
+      "danger": true,
+      "distance_scale": 1.0
+    },
+    "stairs": {
+      "name": "Лестница",
+      "height_m": 1.8,
+      "width_m": 1.3,
+      "priority": 1.0,
+      "danger": true,
+      "distance_scale": 1.0
+    }
+  }
+}
