@@ -54,3 +54,7 @@ python blind_nav.py --model yolov8m.pt --danger-dataset danger_dataset.json --sh
 ```
 
 Чем выше `priority`, тем выше шанс, что объект будет проговорен первым.
+
+## Участники проекта
+
+- Zhaina-блокчейн
