@@ -1,0 +1,17 @@
+# Direct versions used for the verified CPU run; not a complete transitive lock.
+numpy==1.26.4
+torch==2.6.0
+torchvision==0.21.0
+ultralytics==8.4.173
+opencv-python==4.11.0.86
+networkx==3.6.1
+scipy==1.17.1
+fastapi==0.142.2
+uvicorn==0.54.0
+httpx==0.28.1
+pytest==9.1.1
+piper-tts==1.8.0
+onnxruntime==1.24.2
+Pillow==12.3.0
+PyYAML==6.0.3
+lap==0.5.13

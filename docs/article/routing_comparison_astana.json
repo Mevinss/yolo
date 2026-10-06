@@ -1,0 +1,60 @@
+{
+  "n_routes": 39,
+  "seed": 42,
+  "total_km_accessible": 409.5,
+  "total_km_shortest": 369.0,
+  "mean_detour_pct": 11.1,
+  "median_astar_ms": 85.5,
+  "share_pct": {
+    "sidewalk_m": {
+      "accessible": 47.3,
+      "shortest": 13.5
+    },
+    "footway_m": {
+      "accessible": 33.0,
+      "shortest": 7.2
+    },
+    "crossing_m": {
+      "accessible": 4.4,
+      "shortest": 15.2
+    },
+    "roadway_no_sidewalk_m": {
+      "accessible": 12.7,
+      "shortest": 53.8
+    },
+    "roadway_with_sidewalk_m": {
+      "accessible": 1.1,
+      "shortest": 8.1
+    },
+    "steps_m": {
+      "accessible": 0.1,
+      "shortest": 0.1
+    }
+  },
+  "per_km": {
+    "crossings": {
+      "accessible": 3.956,
+      "shortest": 3.301
+    },
+    "crossings_signalled": {
+      "accessible": 1.912,
+      "shortest": 2.423
+    },
+    "crossings_with_audio": {
+      "accessible": 0.273,
+      "shortest": 0.133
+    },
+    "crossings_untagged_or_unmarked": {
+      "accessible": 0.208,
+      "shortest": 0.092
+    },
+    "stairs": {
+      "accessible": 0.044,
+      "shortest": 0.027
+    },
+    "stairs_no_handrail": {
+      "accessible": 0.044,
+      "shortest": 0.027
+    }
+  }
+}

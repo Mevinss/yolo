@@ -1,0 +1,47 @@
+{
+  "device": "cpu",
+  "model": "data/models/yolov8n.pt",
+  "lang": "kk",
+  "rows": [
+    {
+      "image": "May-21-2025_mp4-0639_jpg.rf.1863cb785aae389fc5385f8a7356bacc.jpg",
+      "detections": 0,
+      "risky": 0,
+      "detect_ms": 1114.6,
+      "tts_ms": 194.6,
+      "total_ms": 1309.2,
+      "text": "Кедергі жоқ",
+      "urgency": "INFO"
+    },
+    {
+      "image": "May-21-2025_mp4-0646_jpg.rf.81ef7c489a977e9124b6e7400e848aa2.jpg",
+      "detections": 2,
+      "risky": 2,
+      "detect_ms": 221.1,
+      "tts_ms": 90.9,
+      "total_ms": 312.0,
+      "text": "солда жүк көлігі, жақын",
+      "urgency": "CAUTION"
+    },
+    {
+      "image": "May-21-2025_mp4-0648_jpg.rf.9e2fa9d0a122b939891b26ca70729d41.jpg",
+      "detections": 3,
+      "risky": 3,
+      "detect_ms": 209.1,
+      "tts_ms": 68.0,
+      "total_ms": 277.2,
+      "text": "алдыда көлік, жақын",
+      "urgency": "CAUTION"
+    },
+    {
+      "image": "May-21-2025_mp4-0649_jpg.rf.ef4a23a904dca73445f274062e953350.jpg",
+      "detections": 2,
+      "risky": 2,
+      "detect_ms": 210.2,
+      "tts_ms": 97.1,
+      "total_ms": 307.3,
+      "text": "оңда көлік, 6 метр",
+      "urgency": "CAUTION"
+    }
+  ]
+}

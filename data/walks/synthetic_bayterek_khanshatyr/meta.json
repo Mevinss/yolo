@@ -1,0 +1,13 @@
+{
+  "walk_id": "synthetic_bayterek_khanshatyr",
+  "synthetic": true,
+  "warning": "Кадр и координата не принадлежат одному моменту. Пригодно только для проверки кода, не для выводов.",
+  "destination": {
+    "lat": 51.1325,
+    "lon": 71.4044
+  },
+  "route_description": "Байтерек -> Хан Шатыр (синтетика)",
+  "fps": 10.0,
+  "frames": 225,
+  "duration_s": 22.5
+}

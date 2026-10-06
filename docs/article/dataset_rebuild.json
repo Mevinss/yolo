@@ -1,0 +1,81 @@
+{
+  "audit": {
+    "sources": {
+      "pothole detection": {
+        "images": 555,
+        "boxes_by_source_class": {
+          "1": 1193,
+          "0": 3
+        },
+        "mapping": {
+          "1": "pothole"
+        }
+      },
+      "sidewalk obstacle": {
+        "images": 2301,
+        "boxes_by_source_class": {
+          "1": 8126,
+          "0": 2
+        },
+        "mapping": {
+          "1": "obstacle"
+        }
+      },
+      "stairs detection": {
+        "images": 402,
+        "boxes_by_source_class": {
+          "0": 464
+        },
+        "mapping": {
+          "0": "stairs"
+        }
+      }
+    },
+    "old_combined": {
+      "images": 3258,
+      "label_files": 3258,
+      "empty_label_files": 2851,
+      "boxes_by_class": {
+        "0": 3,
+        "1": 2,
+        "2": 464
+      }
+    }
+  },
+  "rebuilt": {
+    "splits": {
+      "train": {
+        "images": 2837,
+        "empty_labels": 15,
+        "boxes": {
+          "pothole": 1042,
+          "obstacle": 7381,
+          "stairs": 351
+        }
+      },
+      "valid": {
+        "images": 196,
+        "empty_labels": 0,
+        "boxes": {
+          "pothole": 54,
+          "obstacle": 332,
+          "stairs": 62
+        }
+      },
+      "test": {
+        "images": 225,
+        "empty_labels": 2,
+        "boxes": {
+          "pothole": 97,
+          "obstacle": 413,
+          "stairs": 51
+        }
+      }
+    },
+    "dropped_unmapped": {
+      "pothole_detection:0": 3,
+      "sidewalk_obstacle:0": 2
+    },
+    "data_yaml": "data\\datasets\\kz_hazards\\data.yaml"
+  }
+}

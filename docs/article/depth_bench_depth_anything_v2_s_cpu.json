@@ -1,0 +1,54 @@
+{
+  "model": "depth_anything_v2_s",
+  "model_id": "depth-anything/Depth-Anything-V2-Small-hf",
+  "backend": "transformers",
+  "device": "cpu",
+  "higher_is_closer": true,
+  "frames": 12,
+  "infer_median_ms": 850.5,
+  "infer_p95_ms": 935.3,
+  "yolo_hazards_total": 17,
+  "geometric_hazards_total": 11,
+  "geometric_not_covered_by_yolo": 6,
+  "by_kind": {
+    "drop": 0,
+    "rise": 11
+  },
+  "uncovered_examples": [
+    {
+      "image": "May-21-2025_mp4-0653_jpg.rf.78e3df9fdfe64b7e91d28b7f46e0a262.jpg",
+      "kind": "rise",
+      "bearing_deg": 22.1,
+      "distance_m": 4.5,
+      "confidence": 0.37
+    },
+    {
+      "image": "May-21-2025_mp4-0657_jpg.rf.e4c4cd7d39e66e8b748bc503d36f99fe.jpg",
+      "kind": "rise",
+      "bearing_deg": 16.9,
+      "distance_m": 4.2,
+      "confidence": 0.4
+    },
+    {
+      "image": "May-21-2025_mp4-0657_jpg.rf.e4c4cd7d39e66e8b748bc503d36f99fe.jpg",
+      "kind": "rise",
+      "bearing_deg": 22.1,
+      "distance_m": 3.9,
+      "confidence": 0.57
+    },
+    {
+      "image": "May-21-2025_mp4-0658_jpg.rf.e20a5e4db8d9aece0784af50df4b8aac.jpg",
+      "kind": "rise",
+      "bearing_deg": 11.4,
+      "distance_m": 4.6,
+      "confidence": 0.32
+    },
+    {
+      "image": "May-21-2025_mp4-0658_jpg.rf.e20a5e4db8d9aece0784af50df4b8aac.jpg",
+      "kind": "rise",
+      "bearing_deg": 16.9,
+      "distance_m": 4.2,
+      "confidence": 0.45
+    }
+  ]
+}

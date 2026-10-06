@@ -1,0 +1,4 @@
+# Optional; first model load may download pretrained weights.
+-r requirements-runtime.txt
+transformers>=4.45,<5
+timm>=1.0

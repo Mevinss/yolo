@@ -1,0 +1,506 @@
+{
+  "label": "Astana",
+  "totals": {
+    "ways": 35433,
+    "nodes": 4976,
+    "network_km": 6172.9,
+    "pedestrian_km": 1168.1,
+    "mean_multiplier": 2.531
+  },
+  "by_class": {
+    "road": {
+      "count": 21285,
+      "km": 4262.1
+    },
+    "footway": {
+      "count": 7783,
+      "km": 763.5
+    },
+    "other": {
+      "count": 703,
+      "km": 569.2
+    },
+    "sidewalk": {
+      "count": 2422,
+      "km": 324.0
+    },
+    "cycleway": {
+      "count": 426,
+      "km": 132.4
+    },
+    "living_street": {
+      "count": 96,
+      "km": 41.1
+    },
+    "crossing": {
+      "count": 2102,
+      "km": 40.5
+    },
+    "path": {
+      "count": 284,
+      "km": 25.3
+    },
+    "pedestrian_zone": {
+      "count": 80,
+      "km": 10.8
+    },
+    "steps": {
+      "count": 252,
+      "km": 4.0
+    }
+  },
+  "attributes": {
+    "crossing.audio_signal": {
+      "with_tag": 1,
+      "total": 2102,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 40.5,
+      "pct_by_km": 0.0
+    },
+    "crossing.crossing_type": {
+      "with_tag": 1903,
+      "total": 2102,
+      "pct": 90.5,
+      "km_with_tag": 36.0,
+      "km_total": 40.5,
+      "pct_by_km": 89.0
+    },
+    "crossing.kerb": {
+      "with_tag": 0,
+      "total": 2102,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 40.5,
+      "pct_by_km": 0.0
+    },
+    "crossing.markings": {
+      "with_tag": 1895,
+      "total": 2102,
+      "pct": 90.2,
+      "km_with_tag": 35.6,
+      "km_total": 40.5,
+      "pct_by_km": 88.0
+    },
+    "crossing.tactile_paving": {
+      "with_tag": 1,
+      "total": 2102,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 40.5,
+      "pct_by_km": 0.0
+    },
+    "footway.lit": {
+      "with_tag": 208,
+      "total": 7783,
+      "pct": 2.7,
+      "km_with_tag": 24.3,
+      "km_total": 763.5,
+      "pct_by_km": 3.2
+    },
+    "footway.smoothness": {
+      "with_tag": 11,
+      "total": 7783,
+      "pct": 0.1,
+      "km_with_tag": 1.5,
+      "km_total": 763.5,
+      "pct_by_km": 0.2
+    },
+    "footway.surface": {
+      "with_tag": 547,
+      "total": 7783,
+      "pct": 7.0,
+      "km_with_tag": 83.5,
+      "km_total": 763.5,
+      "pct_by_km": 10.9
+    },
+    "footway.tactile_paving": {
+      "with_tag": 6,
+      "total": 7783,
+      "pct": 0.1,
+      "km_with_tag": 0.4,
+      "km_total": 763.5,
+      "pct_by_km": 0.1
+    },
+    "footway.wheelchair": {
+      "with_tag": 0,
+      "total": 7783,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 763.5,
+      "pct_by_km": 0.0
+    },
+    "footway.width": {
+      "with_tag": 4,
+      "total": 7783,
+      "pct": 0.1,
+      "km_with_tag": 0.2,
+      "km_total": 763.5,
+      "pct_by_km": 0.0
+    },
+    "living_street.lit": {
+      "with_tag": 0,
+      "total": 96,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 41.1,
+      "pct_by_km": 0.0
+    },
+    "living_street.smoothness": {
+      "with_tag": 0,
+      "total": 96,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 41.1,
+      "pct_by_km": 0.0
+    },
+    "living_street.surface": {
+      "with_tag": 86,
+      "total": 96,
+      "pct": 89.6,
+      "km_with_tag": 39.8,
+      "km_total": 41.1,
+      "pct_by_km": 96.9
+    },
+    "living_street.tactile_paving": {
+      "with_tag": 0,
+      "total": 96,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 41.1,
+      "pct_by_km": 0.0
+    },
+    "living_street.wheelchair": {
+      "with_tag": 0,
+      "total": 96,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 41.1,
+      "pct_by_km": 0.0
+    },
+    "living_street.width": {
+      "with_tag": 0,
+      "total": 96,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 41.1,
+      "pct_by_km": 0.0
+    },
+    "path.lit": {
+      "with_tag": 0,
+      "total": 284,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 25.3,
+      "pct_by_km": 0.0
+    },
+    "path.smoothness": {
+      "with_tag": 0,
+      "total": 284,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 25.3,
+      "pct_by_km": 0.0
+    },
+    "path.surface": {
+      "with_tag": 24,
+      "total": 284,
+      "pct": 8.5,
+      "km_with_tag": 2.1,
+      "km_total": 25.3,
+      "pct_by_km": 8.3
+    },
+    "path.tactile_paving": {
+      "with_tag": 0,
+      "total": 284,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 25.3,
+      "pct_by_km": 0.0
+    },
+    "path.wheelchair": {
+      "with_tag": 0,
+      "total": 284,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 25.3,
+      "pct_by_km": 0.0
+    },
+    "path.width": {
+      "with_tag": 0,
+      "total": 284,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 25.3,
+      "pct_by_km": 0.0
+    },
+    "pedestrian_zone.lit": {
+      "with_tag": 8,
+      "total": 80,
+      "pct": 10.0,
+      "km_with_tag": 1.3,
+      "km_total": 10.8,
+      "pct_by_km": 11.8
+    },
+    "pedestrian_zone.smoothness": {
+      "with_tag": 0,
+      "total": 80,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 10.8,
+      "pct_by_km": 0.0
+    },
+    "pedestrian_zone.surface": {
+      "with_tag": 9,
+      "total": 80,
+      "pct": 11.2,
+      "km_with_tag": 1.5,
+      "km_total": 10.8,
+      "pct_by_km": 13.6
+    },
+    "pedestrian_zone.tactile_paving": {
+      "with_tag": 0,
+      "total": 80,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 10.8,
+      "pct_by_km": 0.0
+    },
+    "pedestrian_zone.wheelchair": {
+      "with_tag": 0,
+      "total": 80,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 10.8,
+      "pct_by_km": 0.0
+    },
+    "pedestrian_zone.width": {
+      "with_tag": 0,
+      "total": 80,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 10.8,
+      "pct_by_km": 0.0
+    },
+    "road.lit": {
+      "with_tag": 342,
+      "total": 21285,
+      "pct": 1.6,
+      "km_with_tag": 96.7,
+      "km_total": 4262.1,
+      "pct_by_km": 2.3
+    },
+    "road.sidewalk": {
+      "with_tag": 847,
+      "total": 21285,
+      "pct": 4.0,
+      "km_with_tag": 160.2,
+      "km_total": 4262.1,
+      "pct_by_km": 3.8
+    },
+    "road.surface": {
+      "with_tag": 3411,
+      "total": 21285,
+      "pct": 16.0,
+      "km_with_tag": 997.1,
+      "km_total": 4262.1,
+      "pct_by_km": 23.4
+    },
+    "sidewalk.lit": {
+      "with_tag": 231,
+      "total": 2422,
+      "pct": 9.5,
+      "km_with_tag": 40.0,
+      "km_total": 324.0,
+      "pct_by_km": 12.3
+    },
+    "sidewalk.smoothness": {
+      "with_tag": 4,
+      "total": 2422,
+      "pct": 0.2,
+      "km_with_tag": 1.9,
+      "km_total": 324.0,
+      "pct_by_km": 0.6
+    },
+    "sidewalk.surface": {
+      "with_tag": 366,
+      "total": 2422,
+      "pct": 15.1,
+      "km_with_tag": 68.1,
+      "km_total": 324.0,
+      "pct_by_km": 21.0
+    },
+    "sidewalk.tactile_paving": {
+      "with_tag": 1,
+      "total": 2422,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 324.0,
+      "pct_by_km": 0.0
+    },
+    "sidewalk.wheelchair": {
+      "with_tag": 0,
+      "total": 2422,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 324.0,
+      "pct_by_km": 0.0
+    },
+    "sidewalk.width": {
+      "with_tag": 1,
+      "total": 2422,
+      "pct": 0.0,
+      "km_with_tag": 0.3,
+      "km_total": 324.0,
+      "pct_by_km": 0.1
+    },
+    "steps.handrail": {
+      "with_tag": 24,
+      "total": 252,
+      "pct": 9.5,
+      "km_with_tag": 0.3,
+      "km_total": 4.0,
+      "pct_by_km": 7.4
+    },
+    "steps.incline": {
+      "with_tag": 31,
+      "total": 252,
+      "pct": 12.3,
+      "km_with_tag": 0.4,
+      "km_total": 4.0,
+      "pct_by_km": 9.6
+    },
+    "steps.lit": {
+      "with_tag": 6,
+      "total": 252,
+      "pct": 2.4,
+      "km_with_tag": 0.1,
+      "km_total": 4.0,
+      "pct_by_km": 2.3
+    },
+    "steps.step_count": {
+      "with_tag": 4,
+      "total": 252,
+      "pct": 1.6,
+      "km_with_tag": 0.0,
+      "km_total": 4.0,
+      "pct_by_km": 0.9
+    },
+    "steps.tactile_paving": {
+      "with_tag": 0,
+      "total": 252,
+      "pct": 0.0,
+      "km_with_tag": 0.0,
+      "km_total": 4.0,
+      "pct_by_km": 0.0
+    }
+  },
+  "crossing_nodes": {
+    "crossing_node.audio_signal": {
+      "with_tag": 172,
+      "total": 3472,
+      "pct": 5.0
+    },
+    "crossing_node.kerb": {
+      "with_tag": 20,
+      "total": 3472,
+      "pct": 0.6
+    },
+    "crossing_node.markings": {
+      "with_tag": 977,
+      "total": 3472,
+      "pct": 28.1
+    },
+    "crossing_node.tactile_paving": {
+      "with_tag": 2,
+      "total": 3472,
+      "pct": 0.1
+    },
+    "crossing_nodes": {
+      "with_tag": 3472,
+      "total": 3472,
+      "pct": 100.0
+    }
+  },
+  "crossing_kinds": {
+    "(нет тега)": 1521,
+    "traffic_signals": 1175,
+    "uncontrolled": 565,
+    "unmarked": 109,
+    "marked": 101,
+    "controlled": 1
+  },
+  "kerb_kinds": {
+    "lowered": 58,
+    "raised": 9,
+    "flush": 7,
+    "no": 7
+  },
+  "crossing_positive": {
+    "audio_signal=yes": {
+      "count": 144,
+      "pct_of_crossings": 4.15
+    },
+    "kerb lowered/flush": {
+      "count": 19,
+      "pct_of_crossings": 0.55
+    }
+  },
+  "value_distributions": {
+    "handrail": {
+      "yes": 14,
+      "no": 10
+    },
+    "lit": {
+      "yes": 852,
+      "no": 97
+    },
+    "node.kerb": {
+      "lowered": 18,
+      "raised": 1,
+      "flush": 1
+    },
+    "node.tactile_paving": {
+      "no": 2
+    },
+    "node.traffic_signals:sound": {
+      "yes": 144,
+      "no": 28
+    },
+    "sidewalk": {
+      "both": 53,
+      "no": 35,
+      "right": 28,
+      "yes": 21,
+      "separate": 15,
+      "left": 7
+    },
+    "smoothness": {
+      "good": 60,
+      "excellent": 35,
+      "bad": 7,
+      "intermediate": 6
+    },
+    "surface": {
+      "asphalt": 3747,
+      "paving_stones": 631,
+      "ground": 269,
+      "unpaved": 148,
+      "gravel": 83,
+      "paved": 57,
+      "compacted": 26,
+      "sett": 19
+    },
+    "tactile_paving": {
+      "no": 5,
+      "yes": 3
+    },
+    "traffic_signals:sound": {
+      "walk": 1
+    },
+    "wheelchair": {
+      "limited": 1
+    }
+  },
+  "n_crossing_nodes": 3472
+}

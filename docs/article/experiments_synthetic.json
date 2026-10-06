@@ -1,0 +1,57 @@
+{
+  "walks": [
+    "synthetic_bayterek_khanshatyr"
+  ],
+  "model": "data/models/yolov8n.pt",
+  "device": "cpu",
+  "baseline": {
+    "full": {
+      "walks": 1,
+      "duration_s": 22.4,
+      "hazard_recall": 0.0036,
+      "missed_critical": 147,
+      "arrived_rate": 0.0,
+      "cross_track_rmse_m": 0.0,
+      "replan_total": 0,
+      "utterances_per_min": 13.39,
+      "contradiction_rate_per_min": 0.0,
+      "speech_duty_cycle": 0.2576,
+      "latency_p50_ms": 213.9,
+      "overrides": {}
+    },
+    "route_only": {
+      "walks": 1,
+      "duration_s": 22.4,
+      "hazard_recall": 0.0036,
+      "missed_critical": 147,
+      "arrived_rate": 0.0,
+      "cross_track_rmse_m": 0.0,
+      "replan_total": 0,
+      "utterances_per_min": 13.39,
+      "contradiction_rate_per_min": 0.0,
+      "speech_duty_cycle": 0.2576,
+      "latency_p50_ms": 213.5,
+      "overrides": {
+        "fusion.w_risk": 0.0
+      }
+    },
+    "vision_only": {
+      "walks": 1,
+      "duration_s": 22.4,
+      "hazard_recall": 0.0143,
+      "missed_critical": 144,
+      "arrived_rate": 0.0,
+      "cross_track_rmse_m": 0.0,
+      "replan_total": 0,
+      "utterances_per_min": 21.43,
+      "contradiction_rate_per_min": 0.0,
+      "speech_duty_cycle": 0.5838,
+      "latency_p50_ms": 218.3,
+      "overrides": {
+        "fusion.w_route": 0.0
+      }
+    }
+  },
+  "elapsed_min": 1.8,
+  "synthetic_included": true
+}

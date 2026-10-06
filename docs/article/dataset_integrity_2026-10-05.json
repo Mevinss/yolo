@@ -1,0 +1,64 @@
+{
+  "schema_version": 2,
+  "seed": 42,
+  "source": "D:\\Слепой\\Статья\\blind-nav\\data\\datasets\\kz_hazards",
+  "output": "D:\\Слепой\\Статья\\blind-nav\\data\\datasets\\hazards_grouped_v1",
+  "classes": [
+    "pothole",
+    "obstacle",
+    "stairs"
+  ],
+  "splits": {
+    "train": {
+      "images": 2117,
+      "groups": 343,
+      "boxes": {
+        "pothole": 933,
+        "obstacle": 4325,
+        "stairs": 381
+      },
+      "empty_labels": 7
+    },
+    "valid": {
+      "images": 96,
+      "groups": 42,
+      "boxes": {
+        "pothole": 250,
+        "obstacle": 0,
+        "stairs": 40
+      },
+      "empty_labels": 0
+    },
+    "test": {
+      "images": 1045,
+      "groups": 43,
+      "boxes": {
+        "pothole": 10,
+        "obstacle": 3801,
+        "stairs": 43
+      },
+      "empty_labels": 10
+    }
+  },
+  "source_groups": {
+    "pothole_detection": 24,
+    "sidewalk_obstacle": 2,
+    "stairs_detection": 402
+  },
+  "original_cross_split_groups": 18,
+  "missing_classes": {
+    "train": [],
+    "valid": [
+      "obstacle"
+    ],
+    "test": []
+  },
+  "rejected_annotations": [],
+  "benchmark_ready": false,
+  "limitations": [
+    "Source licences and original scene identities require verification.",
+    "Grouping uses filenames and exact file hashes, not all visual similarities.",
+    "Historical test images are reused; a new external test set is still needed.",
+    "Do not reuse old model metrics for this split."
+  ]
+}

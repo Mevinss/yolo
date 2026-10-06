@@ -1,0 +1,23 @@
+[
+  {
+    "voice": "kk_KZ-issai-high",
+    "size_mb": 127.9,
+    "load_s": 1.9,
+    "median_ms": 702.1,
+    "p95_ms": 1063.5
+  },
+  {
+    "voice": "kk_KZ-iseke-x_low",
+    "size_mb": 28.1,
+    "load_s": 3.72,
+    "median_ms": 115.7,
+    "p95_ms": 194.4
+  },
+  {
+    "voice": "ru_RU-irina-medium",
+    "size_mb": 63.2,
+    "load_s": 2.96,
+    "median_ms": 193.3,
+    "p95_ms": 286.0
+  }
+]

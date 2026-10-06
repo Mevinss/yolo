@@ -1,9 +1,45 @@
-datasets/
-runs/
-YOLO-OD-main/
 __pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# --- данные ---
+# Снимок OSM (astana_pedestrian.json.gz, ~3.5 МБ) ВЕРСИОНИРУЕТСЯ намеренно:
+# OSM меняется ежедневно, и без зафиксированного снимка цифры статьи
+# через год не повторить. Всё, что из него выводится, — не версионируется.
+# тайлы Overpass — избыточны при наличии слитого файла
+data/osm/raw/
+# кэш графа — пересобирается за 3 с
+data/osm/*.pkl
+data/osm/*.pbf
+data/osm/*.osm
+data/models/*.pt
+data/models/*.onnx
+data/models/tts/
+data/walks/*/video.mp4
+data/walks/*/*.mkv
+data/walks/smoke_*/
+# прогоны пересчитываются из записи — в истории не нужны
+data/walks/*/ticks*.jsonl.gz
+# пересобирается из исходных выгрузок: tools/build_dataset.py
+data/datasets/
+# результаты обучения
+runs/
+
+# результаты прогонов
+runs/
+logs/
+*.jsonl.gz
+
+# мобильное приложение
+app/node_modules/
+app/.expo/
+
+.idea/
 .vscode/
-*.pyc
-*.pyo
-test_result.jpg
-Текстовый документ.txt
+.DS_Store
+
+# Private field recordings and device QR codes
+data/walks/walk_*/
+docs/expo_qr.png

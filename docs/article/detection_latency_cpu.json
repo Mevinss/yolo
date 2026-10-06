@@ -1,0 +1,70 @@
+{
+  "hardware": {
+    "cpu": "AMD Ryzen 5 7535HS",
+    "cores": 6,
+    "threads": 12,
+    "gpu_present": "NVIDIA RTX 4050 Laptop 6GB",
+    "gpu_used": false,
+    "torch": "2.11.0+cpu",
+    "note": "torch собран без CUDA — GPU простаивает"
+  },
+  "measurements": [
+    {
+      "model": "yolov8n",
+      "imgsz": 640,
+      "tracking": false,
+      "median_ms": 96,
+      "fps": 10.5
+    },
+    {
+      "model": "yolov8n",
+      "imgsz": 640,
+      "tracking": true,
+      "median_ms": 126,
+      "fps": 7.9
+    },
+    {
+      "model": "yolov8n",
+      "imgsz": 480,
+      "tracking": true,
+      "median_ms": 95,
+      "fps": 10.5
+    },
+    {
+      "model": "yolov8n",
+      "imgsz": 320,
+      "tracking": true,
+      "median_ms": 63,
+      "fps": 16.0
+    },
+    {
+      "model": "yolov8m",
+      "imgsz": 640,
+      "tracking": true,
+      "median_ms": 473,
+      "fps": 2.1
+    },
+    {
+      "model": "yolov8m",
+      "imgsz": 480,
+      "tracking": true,
+      "median_ms": 253,
+      "fps": 4.0
+    }
+  ],
+  "threads": [
+    {
+      "n": 6,
+      "median_ms": 102
+    },
+    {
+      "n": 8,
+      "median_ms": 101
+    },
+    {
+      "n": 12,
+      "median_ms": 117
+    }
+  ],
+  "comparison": "Каржаубай и Назырова заявляют 18-22 к/с на Intel i5-11400 (CPU). Наши 16 к/с при yolov8n imgsz=320 с трекингом сопоставимы; разница объясняется размером входа и накладными расходами трекинга."
+}

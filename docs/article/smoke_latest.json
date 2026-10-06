@@ -1,0 +1,115 @@
+{
+  "kind": "integration_smoke_not_accuracy_evaluation",
+  "health": {
+    "walk_id": "smoke_20261005_123710_262624",
+    "frames_received": 0,
+    "frames_processed": 0,
+    "frames_dropped": 0,
+    "fps_in": 0.0,
+    "fps_processed": 0.0,
+    "elapsed_s": 15.1,
+    "ready": true,
+    "recording": false,
+    "audio_ready": true,
+    "depth_ready": false,
+    "routing_ready": true,
+    "device": "cpu"
+  },
+  "frames_processed": 3,
+  "replies": [
+    {
+      "seq": 0,
+      "state": {
+        "action": "straight",
+        "crossing_phase": null,
+        "distance_to_maneuver_m": null,
+        "off_route": null,
+        "arrived": null,
+        "blocked": false,
+        "confidence": 1.0,
+        "target": "chair",
+        "flags": [],
+        "detections": 3
+      },
+      "timings_ms": {
+        "health_ms": 7.0,
+        "perception_ms": 124.8,
+        "depth_ms": 0.0,
+        "risk_ms": 0.3,
+        "local_ms": 0.5,
+        "routing_ms": 0.0,
+        "fusion_ms": 0.2,
+        "guidance_ms": 0.1,
+        "total_ms": 132.9
+      },
+      "utterance": {
+        "text": "Стул слева, близко",
+        "lang": "ru",
+        "urgency": 1
+      },
+      "audio_bytes_base64": 136592
+    },
+    {
+      "seq": 1,
+      "state": {
+        "action": "straight",
+        "crossing_phase": null,
+        "distance_to_maneuver_m": null,
+        "off_route": null,
+        "arrived": null,
+        "blocked": false,
+        "confidence": 1.0,
+        "target": "chair",
+        "flags": [],
+        "detections": 3
+      },
+      "timings_ms": {
+        "health_ms": 6.9,
+        "perception_ms": 83.4,
+        "depth_ms": 0.0,
+        "risk_ms": 0.2,
+        "local_ms": 0.4,
+        "routing_ms": 0.0,
+        "fusion_ms": 0.2,
+        "guidance_ms": 0.1,
+        "total_ms": 91.2
+      },
+      "utterance": null,
+      "audio_bytes_base64": 0
+    },
+    {
+      "seq": 2,
+      "state": {
+        "action": "straight",
+        "crossing_phase": null,
+        "distance_to_maneuver_m": null,
+        "off_route": null,
+        "arrived": null,
+        "blocked": false,
+        "confidence": 1.0,
+        "target": "chair",
+        "flags": [],
+        "detections": 3
+      },
+      "timings_ms": {
+        "health_ms": 6.1,
+        "perception_ms": 82.3,
+        "depth_ms": 0.0,
+        "risk_ms": 0.2,
+        "local_ms": 0.4,
+        "routing_ms": 0.0,
+        "fusion_ms": 0.2,
+        "guidance_ms": 0.1,
+        "total_ms": 89.3
+      },
+      "utterance": null,
+      "audio_bytes_base64": 0
+    }
+  ],
+  "recording": "D:\\Слепой\\Статья\\blind-nav\\data\\walks\\smoke_20261005_123710_262624",
+  "limitations": [
+    "No physical phone or user trial.",
+    "Depth disabled for this CPU smoke.",
+    "Processing timings are not camera-to-ear latency."
+  ]
+}

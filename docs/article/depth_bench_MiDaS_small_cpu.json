@@ -1,0 +1,51 @@
+{
+  "model": "MiDaS_small",
+  "device": "cuda",
+  "frames": 12,
+  "infer_median_ms": 68.5,
+  "infer_p95_ms": 80.4,
+  "yolo_hazards_total": 17,
+  "geometric_hazards_total": 11,
+  "geometric_not_covered_by_yolo": 6,
+  "by_kind": {
+    "drop": 2,
+    "rise": 9
+  },
+  "uncovered_examples": [
+    {
+      "image": "May-21-2025_mp4-0655_jpg.rf.684d8d6c53bce4f7ff8389d9c7fc626e.jpg",
+      "kind": "drop",
+      "bearing_deg": 22.1,
+      "distance_m": 2.2,
+      "confidence": 1.0
+    },
+    {
+      "image": "May-21-2025_mp4-0657_jpg.rf.e4c4cd7d39e66e8b748bc503d36f99fe.jpg",
+      "kind": "rise",
+      "bearing_deg": 11.4,
+      "distance_m": 4.1,
+      "confidence": 0.4
+    },
+    {
+      "image": "May-21-2025_mp4-0657_jpg.rf.e4c4cd7d39e66e8b748bc503d36f99fe.jpg",
+      "kind": "rise",
+      "bearing_deg": 16.9,
+      "distance_m": 3.6,
+      "confidence": 0.67
+    },
+    {
+      "image": "May-21-2025_mp4-0658_jpg.rf.e20a5e4db8d9aece0784af50df4b8aac.jpg",
+      "kind": "rise",
+      "bearing_deg": 16.9,
+      "distance_m": 4.5,
+      "confidence": 0.35
+    },
+    {
+      "image": "May-21-2025_mp4-0658_jpg.rf.e20a5e4db8d9aece0784af50df4b8aac.jpg",
+      "kind": "rise",
+      "bearing_deg": 22.1,
+      "distance_m": 4.1,
+      "confidence": 0.43
+    }
+  ]
+}

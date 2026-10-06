@@ -1,0 +1,67 @@
+{
+  "device": "cpu",
+  "model": "data/models/yolov8n.pt",
+  "lang": "ru",
+  "rows": [
+    {
+      "image": "May-21-2025_mp4-0639_jpg.rf.1863cb785aae389fc5385f8a7356bacc.jpg",
+      "detections": 0,
+      "risky": 0,
+      "detect_ms": 1269.7,
+      "tts_ms": 96.4,
+      "total_ms": 1366.1,
+      "text": "Препятствий не вижу",
+      "urgency": "INFO"
+    },
+    {
+      "image": "May-21-2025_mp4-0646_jpg.rf.81ef7c489a977e9124b6e7400e848aa2.jpg",
+      "detections": 2,
+      "risky": 2,
+      "detect_ms": 222.4,
+      "tts_ms": 139.2,
+      "total_ms": 361.6,
+      "text": "Слева грузовик, близко",
+      "urgency": "CAUTION"
+    },
+    {
+      "image": "May-21-2025_mp4-0648_jpg.rf.9e2fa9d0a122b939891b26ca70729d41.jpg",
+      "detections": 3,
+      "risky": 3,
+      "detect_ms": 213.4,
+      "tts_ms": 141.5,
+      "total_ms": 354.9,
+      "text": "Прямо машина, близко",
+      "urgency": "CAUTION"
+    },
+    {
+      "image": "May-21-2025_mp4-0649_jpg.rf.ef4a23a904dca73445f274062e953350.jpg",
+      "detections": 2,
+      "risky": 2,
+      "detect_ms": 230.9,
+      "tts_ms": 241.1,
+      "total_ms": 472.0,
+      "text": "Справа машина, 6.3 метра",
+      "urgency": "CAUTION"
+    },
+    {
+      "image": "May-21-2025_mp4-0653_jpg.rf.78e3df9fdfe64b7e91d28b7f46e0a262.jpg",
+      "detections": 3,
+      "risky": 3,
+      "detect_ms": 218.3,
+      "tts_ms": 126.7,
+      "total_ms": 345.0,
+      "text": "Слева машина, близко",
+      "urgency": "CAUTION"
+    },
+    {
+      "image": "May-21-2025_mp4-0654_jpg.rf.0f5d312cd88ee1dd6e04ce022276cc9a.jpg",
+      "detections": 1,
+      "risky": 1,
+      "detect_ms": 216.5,
+      "tts_ms": 195.5,
+      "total_ms": 412.0,
+      "text": "Справа человек, 5.5 метра",
+      "urgency": "CAUTION"
+    }
+  ]
+}

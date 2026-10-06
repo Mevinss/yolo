@@ -1,0 +1,10 @@
+-r requirements-core.txt
+torch>=2.4
+torchvision>=0.19
+opencv-python>=4.10,<4.12
+ultralytics>=8.3,<9
+lap>=0.5
+fastapi>=0.115
+uvicorn[standard]>=0.30
+httpx>=0.28
+piper-tts==1.8.0

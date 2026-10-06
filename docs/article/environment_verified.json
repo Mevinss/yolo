@@ -1,0 +1,25 @@
+{
+  "python": "3.11.7 (tags/v3.11.7:fa7a6f2, Dec  4 2023, 19:24:49) [MSC v.1937 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "environment": "venv with system-site-packages",
+  "packages": {
+    "numpy": "1.26.4",
+    "torch": "2.6.0",
+    "torchvision": "0.21.0",
+    "ultralytics": "8.4.173",
+    "opencv-python": "4.11.0.86",
+    "networkx": "3.6.1",
+    "scipy": "1.17.1",
+    "fastapi": "0.142.2",
+    "uvicorn": "0.54.0",
+    "httpx": "0.28.1",
+    "pytest": "9.1.1",
+    "piper-tts": "1.8.0",
+    "onnxruntime": "1.24.2",
+    "Pillow": "12.3.0",
+    "PyYAML": "6.0.3",
+    "lap": "0.5.13"
+  },
+  "device_verified": "cpu",
+  "model_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36"
+}

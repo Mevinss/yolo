@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "blind-nav",
+    "slug": "blind-nav",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Камера нужна для обнаружения препятствий на пути.",
+        "NSLocationWhenInUseUsageDescription": "Геопозиция нужна для построения маршрута.",
+        "UIBackgroundModes": ["audio"]
+      }
+    },
+    "android": {
+      "permissions": ["CAMERA", "ACCESS_FINE_LOCATION", "VIBRATE"]
+    }
+  }
+}

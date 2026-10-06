@@ -1,0 +1,34 @@
+{
+  "model": "data/models/yolov8s.pt",
+  "epochs": 50,
+  "imgsz": 640,
+  "batch": 16,
+  "train_minutes": 136.5,
+  "weights": "F:\\сабак\\Статья\\blind-nav\\runs\\detect\\runs\\kz_hazards\\weights\\best.pt",
+  "overall": {
+    "mAP50": 0.6749,
+    "mAP50_95": 0.4743,
+    "precision": 0.6765,
+    "recall": 0.662
+  },
+  "per_class": {
+    "pothole": {
+      "precision": 0.8489,
+      "recall": 0.9691,
+      "mAP50": 0.969,
+      "mAP50_95": 0.7239
+    },
+    "obstacle": {
+      "precision": 0.4082,
+      "recall": 0.2131,
+      "mAP50": 0.1935,
+      "mAP50_95": 0.0706
+    },
+    "stairs": {
+      "precision": 0.7724,
+      "recall": 0.8039,
+      "mAP50": 0.8621,
+      "mAP50_95": 0.6285
+    }
+  }
+}

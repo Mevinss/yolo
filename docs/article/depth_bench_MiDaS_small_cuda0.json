@@ -1,0 +1,103 @@
+{
+  "model": "MiDaS_small",
+  "model_id": "intel-isl/MiDaS:MiDaS_small",
+  "backend": "torch.hub",
+  "device": "cuda:0",
+  "higher_is_closer": true,
+  "frames": 20,
+  "infer_median_ms": 32.2,
+  "infer_p95_ms": 38.9,
+  "yolo_hazards_total": 27,
+  "geometric_hazards_total": 20,
+  "geometric_not_covered_by_yolo": 14,
+  "by_kind": {
+    "drop": 3,
+    "rise": 17
+  },
+  "uncovered_examples": [
+    {
+      "image": "May-21-2025_mp4-0655_jpg.rf.684d8d6c53bce4f7ff8389d9c7fc626e.jpg",
+      "kind": "drop",
+      "bearing_deg": 22.1,
+      "distance_m": 2.2,
+      "confidence": 1.0
+    },
+    {
+      "image": "May-21-2025_mp4-0657_jpg.rf.e4c4cd7d39e66e8b748bc503d36f99fe.jpg",
+      "kind": "rise",
+      "bearing_deg": 11.4,
+      "distance_m": 4.1,
+      "confidence": 0.4
+    },
+    {
+      "image": "May-21-2025_mp4-0657_jpg.rf.e4c4cd7d39e66e8b748bc503d36f99fe.jpg",
+      "kind": "rise",
+      "bearing_deg": 16.9,
+      "distance_m": 3.6,
+      "confidence": 0.67
+    },
+    {
+      "image": "May-21-2025_mp4-0658_jpg.rf.e20a5e4db8d9aece0784af50df4b8aac.jpg",
+      "kind": "rise",
+      "bearing_deg": 16.9,
+      "distance_m": 4.5,
+      "confidence": 0.35
+    },
+    {
+      "image": "May-21-2025_mp4-0658_jpg.rf.e20a5e4db8d9aece0784af50df4b8aac.jpg",
+      "kind": "rise",
+      "bearing_deg": 22.1,
+      "distance_m": 4.1,
+      "confidence": 0.43
+    },
+    {
+      "image": "May-21-2025_mp4-0663_jpg.rf.c1e41ea2e70a5f91c725f7458f72bd3d.jpg",
+      "kind": "rise",
+      "bearing_deg": 22.1,
+      "distance_m": 4.2,
+      "confidence": 0.37
+    },
+    {
+      "image": "May-21-2025_mp4-0668_jpg.rf.d0502f1adf3ade4d7793a633220a0d56.jpg",
+      "kind": "rise",
+      "bearing_deg": 16.9,
+      "distance_m": 4.5,
+      "confidence": 0.33
+    },
+    {
+      "image": "May-21-2025_mp4-0668_jpg.rf.d0502f1adf3ade4d7793a633220a0d56.jpg",
+      "kind": "rise",
+      "bearing_deg": 22.1,
+      "distance_m": 4.0,
+      "confidence": 0.47
+    },
+    {
+      "image": "May-21-2025_mp4-0670_jpg.rf.106bb9e9912ab10eec1ce4eca85ba615.jpg",
+      "kind": "rise",
+      "bearing_deg": 11.4,
+      "distance_m": 4.6,
+      "confidence": 0.32
+    },
+    {
+      "image": "May-21-2025_mp4-0670_jpg.rf.106bb9e9912ab10eec1ce4eca85ba615.jpg",
+      "kind": "rise",
+      "bearing_deg": 16.9,
+      "distance_m": 4.4,
+      "confidence": 0.39
+    },
+    {
+      "image": "May-21-2025_mp4-0671_jpg.rf.a41f09bb2324685c9a3245d5373898b0.jpg",
+      "kind": "rise",
+      "bearing_deg": 16.9,
+      "distance_m": 4.7,
+      "confidence": 0.3
+    },
+    {
+      "image": "May-21-2025_mp4-0671_jpg.rf.a41f09bb2324685c9a3245d5373898b0.jpg",
+      "kind": "rise",
+      "bearing_deg": 22.1,
+      "distance_m": 3.9,
+      "confidence": 0.4
+    }
+  ]
+}

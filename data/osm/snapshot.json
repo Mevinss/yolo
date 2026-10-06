@@ -1,0 +1,19 @@
+{
+  "source": "OpenStreetMap via Overpass API",
+  "license": "ODbL 1.0",
+  "fetched_utc": "2026-08-22T19:49:30+00:00",
+  "bbox": {
+    "min_lat": 51.0,
+    "min_lon": 71.2,
+    "max_lat": 51.25,
+    "max_lon": 71.65
+  },
+  "tiles": 16,
+  "query_version": "v1",
+  "counts": {
+    "ways": 35433,
+    "nodes": 4976
+  },
+  "file": "astana_pedestrian.json.gz",
+  "file_bytes": 3458807
+}

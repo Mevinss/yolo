@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-05",
+  "restored_files": 82,
+  "pytest": {
+    "passed": 205,
+    "failed": 0,
+    "skipped": 0
+  },
+  "mobile_js": "Babel compilation passed; no physical phone test",
+  "api_smoke": "real YOLOv8n CPU; three frames; WebSocket and target endpoint; audio returned",
+  "routing": "OSM graph rebuilt; Bayterek-Khan Shatyr route calculated",
+  "dataset": "3258 images; group-disjoint candidate with verified hashes; not benchmark-ready",
+  "depth_in_smoke": false,
+  "field_validation": false,
+  "detector_retrained": false
+}

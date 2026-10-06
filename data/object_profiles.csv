@@ -1,0 +1,89 @@
+english_name,russian_name,kazakh_name,category,priority,height_m,ground_compatible,indoor_category,indoor_priority
+person,человек,адам,obstacle,0.85,1.68,1,obstacle,0.85
+bicycle,велосипед,велосипед,danger,0.90,1.10,1,danger,0.90
+car,машина,көлік,danger,1.00,1.50,1,neutral,0.10
+motorcycle,мотоцикл,мотоцикл,danger,0.95,1.20,1,danger,0.95
+airplane,самолёт,ұшақ,neutral,0.05,4.00,0,neutral,0.05
+bus,автобус,автобус,danger,1.00,3.00,1,neutral,0.10
+train,поезд,пойыз,danger,1.00,3.50,1,danger,1.00
+truck,грузовик,жүк көлігі,danger,1.00,3.20,1,neutral,0.10
+boat,лодка,қайық,neutral,0.10,1.50,0,neutral,0.10
+traffic light,светофор,бағдаршам,landmark,0.55,2.50,0,neutral,0.05
+fire hydrant,гидрант,өрт гидранты,obstacle,0.70,0.75,1,obstacle,0.70
+stop sign,знак стоп,тоқта белгісі,landmark,0.50,2.00,0,landmark,0.50
+parking meter,паркомат,тұрақ есептегіші,obstacle,0.65,1.40,1,obstacle,0.65
+bench,скамейка,орындық,obstacle,0.75,0.90,1,obstacle,0.75
+bird,птица,құс,neutral,0.10,0.20,0,neutral,0.10
+cat,кошка,мысық,obstacle,0.45,0.35,1,obstacle,0.45
+dog,собака,ит,danger,0.80,0.60,1,danger,0.80
+horse,лошадь,жылқы,danger,0.70,1.60,1,danger,0.70
+sheep,овца,қой,neutral,0.30,0.80,1,neutral,0.30
+cow,корова,сиыр,danger,0.60,1.40,1,danger,0.60
+elephant,слон,піл,neutral,0.05,3.00,1,neutral,0.05
+bear,медведь,аю,danger,0.90,1.20,1,danger,0.90
+zebra,зебра,зебра,neutral,0.05,1.40,1,neutral,0.05
+giraffe,жираф,керік,neutral,0.05,4.50,1,neutral,0.05
+backpack,рюкзак,арқа сөмке,obstacle,0.50,0.55,1,obstacle,0.50
+umbrella,зонт,қолшатыр,obstacle,0.45,1.00,0,obstacle,0.45
+handbag,сумка,сөмке,obstacle,0.40,0.35,1,obstacle,0.40
+tie,галстук,галстук,neutral,0.05,0.40,0,neutral,0.05
+suitcase,чемодан,чемодан,obstacle,0.65,0.65,1,obstacle,0.65
+frisbee,фрисби,фрисби,neutral,0.05,0.05,0,neutral,0.05
+skis,лыжи,шаңғы,obstacle,0.35,0.10,1,obstacle,0.35
+snowboard,сноуборд,сноуборд,obstacle,0.35,0.15,1,obstacle,0.35
+sports ball,мяч,доп,obstacle,0.30,0.22,1,obstacle,0.30
+kite,воздушный змей,батпырауық,neutral,0.05,0.50,0,neutral,0.05
+baseball bat,бита,бейсбол таяғы,neutral,0.15,0.80,0,neutral,0.15
+baseball glove,перчатка,қолғап,neutral,0.05,0.25,0,neutral,0.05
+skateboard,скейтборд,скейтборд,obstacle,0.55,0.20,1,obstacle,0.55
+surfboard,доска для сёрфинга,серфинг тақтасы,neutral,0.15,0.30,1,neutral,0.15
+tennis racket,ракетка,ракетка,neutral,0.10,0.65,0,neutral,0.10
+bottle,бутылка,бөтелке,neutral,0.15,0.25,1,neutral,0.15
+wine glass,бокал,бокал,neutral,0.05,0.20,0,neutral,0.05
+cup,кружка,кесе,neutral,0.10,0.12,0,neutral,0.10
+fork,вилка,шанышқы,neutral,0.05,0.02,0,neutral,0.05
+knife,нож,пышақ,neutral,0.05,0.02,0,danger,0.95
+spoon,ложка,қасық,neutral,0.05,0.02,0,neutral,0.05
+bowl,миска,тәрелке,neutral,0.05,0.08,0,neutral,0.05
+banana,банан,банан,neutral,0.05,0.05,0,neutral,0.05
+apple,яблоко,алма,neutral,0.05,0.08,0,neutral,0.05
+sandwich,сэндвич,сэндвич,neutral,0.05,0.06,0,neutral,0.05
+orange,апельсин,апельсин,neutral,0.05,0.08,0,neutral,0.05
+broccoli,брокколи,брокколи,neutral,0.05,0.12,0,neutral,0.05
+carrot,морковь,сәбіз,neutral,0.05,0.05,0,neutral,0.05
+hot dog,хот-дог,хот-дог,neutral,0.05,0.06,0,neutral,0.05
+pizza,пицца,пицца,neutral,0.05,0.04,0,neutral,0.05
+donut,пончик,пончик,neutral,0.05,0.05,0,neutral,0.05
+cake,торт,торт,neutral,0.05,0.15,0,neutral,0.05
+chair,стул,отырғыш,obstacle,0.70,0.90,1,obstacle,0.85
+couch,диван,диван,obstacle,0.65,0.80,1,obstacle,0.80
+potted plant,растение,гүл құмырасы,obstacle,0.55,0.70,1,obstacle,0.65
+bed,кровать,төсек,obstacle,0.55,0.60,1,obstacle,0.70
+dining table,стол,үстел,obstacle,0.70,0.75,1,obstacle,0.85
+toilet,унитаз,дәретхана,landmark,0.40,0.75,1,obstacle,0.55
+tv,телевизор,теледидар,neutral,0.20,0.60,0,obstacle,0.60
+laptop,ноутбук,ноутбук,neutral,0.10,0.25,0,neutral,0.10
+mouse,мышь,тінтуір,neutral,0.05,0.04,0,neutral,0.05
+remote,пульт,пульт,neutral,0.05,0.03,0,neutral,0.05
+keyboard,клавиатура,пернетақта,neutral,0.05,0.03,0,neutral,0.05
+cell phone,телефон,ұялы телефон,neutral,0.05,0.15,0,neutral,0.05
+microwave,микроволновка,қысқа толқынды пеш,obstacle,0.35,0.30,0,obstacle,0.40
+oven,духовка,пеш,obstacle,0.40,0.85,1,danger,0.75
+toaster,тостер,тостер,neutral,0.10,0.20,0,obstacle,0.35
+sink,раковина,қолжуғыш,landmark,0.40,0.85,1,obstacle,0.55
+refrigerator,холодильник,тоңазытқыш,obstacle,0.55,1.75,1,obstacle,0.70
+book,книга,кітап,neutral,0.05,0.25,0,neutral,0.05
+clock,часы,сағат,landmark,0.30,0.30,0,landmark,0.25
+vase,ваза,ваза,neutral,0.15,0.30,0,obstacle,0.45
+scissors,ножницы,қайшы,neutral,0.05,0.02,0,danger,0.90
+teddy bear,игрушка,ойыншық,neutral,0.05,0.30,0,neutral,0.05
+hair drier,фен,фен,neutral,0.05,0.20,0,neutral,0.05
+toothbrush,зубная щётка,тіс щёткасы,neutral,0.05,0.02,0,neutral,0.05
+pothole,яма,шұңқыр,danger,1.00,0.12,1,neutral,0.10
+stairs,лестница,баспалдақ,danger,0.98,0.18,1,danger,1.00
+obstacle,препятствие,кедергі,obstacle,0.90,0.60,1,obstacle,0.90
+curb,бордюр,бордюр,danger,0.85,0.15,1,danger,0.85
+manhole,люк,люк,danger,1.00,0.05,1,danger,1.00
+door,дверь,есік,landmark,0.45,2.05,1,landmark,0.70
+drop,провал,шұңқыр,danger,1.00,0.00,1,danger,1.00
+rise,преграда,кедергі,obstacle,0.85,0.00,1,obstacle,0.85
